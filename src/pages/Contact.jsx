@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react';
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+
 
 const Contact = () => {
-  useEffect(()=>{
-    Aos.init({duration:3000})
-},[])
+//   useEffect(()=>{
+//     Aos.init({duration:3000})
+// },[])
     return (
         <div id='contact'> 
             <div className="container">

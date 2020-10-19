@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+
 import img from '../Images/87626630_2617805838453704_2702793984178126848_o (1).jpg'
 const About = () => {
     useEffect(()=>{
