@@ -1,12 +1,17 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+},[])
     return (
-        <div>
+        <div id='contact'> 
             <div className="container">
-                <h1 className='text-center'>CONTACT</h1> <hr size="5" className='w-25 mx-auto'/>
+                <h1 data-aos="fade-right"  className='text-center'>CONTACT</h1> <hr size="5" className='w-25 mx-auto'/>
                 <div className="row mt-5">
-                    <div className="col-md-6 mx-auto">
+                    <div data-aos="zoom-in"  className="col-md-6 mx-auto">
                     <form class="needs-validation" novalidate>
   <div class="form-row">
     <div class="col">

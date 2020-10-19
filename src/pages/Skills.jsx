@@ -1,14 +1,19 @@
-import React from "react";
+import React,{useEffect} from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import img from '../Images/pexels-olia-danilevich-4974915.jpg'
 
 const Skills = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+},[])
   return (
-    <div>
+    <div id='skills'>
       <div className="container">
-        <h1 className="text-center mt-4">SKILLS</h1>
+        <h1 data-aos='zoom-in' className="text-center mt-4">SKILLS</h1>
         <hr size="5" className='w-25 mx-auto'/>
         <div className="row py-5">
-          <div className="col-md-6 pr-5">
+          <div data-aos='fade-right' className="col-md-6 pr-5">
             <h1>Professional Skills</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -88,7 +93,7 @@ const Skills = () => {
               ></div>
             </div>
           </div>
-          <div className="col-md-6 mt-5 pt-5">
+          <div data-aos='zoom-in' className="col-md-6 mt-5 pt-5">
               <img className='img-fluid pl-5  rounded' src={img} alt="" srcset=""/>
           </div>
         </div>
