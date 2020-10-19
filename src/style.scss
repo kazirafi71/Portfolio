@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+#about{
+    .bd{
+       
+        
+      
+    }
+    
+}
+
+h1{
+    font-family: Quicksand;
+    font-weight: 700;
+}
+
+.card_hover{
+
+    .card:hover{
+        background-color: #EC7063 ;
+        color: white;
+    }
+        
+    
+    
+
+}
+
+
+@media(max-width :570px){
+    
+    #home{
+        .image{
+            display: none !important;
+        }
+    }
+    
+
+}
+
+@media(max-width :780px){
+    
+    #home{
+        .text{
+           margin-top: -20px !important;
+            
+        }
+        .image{
+            display: none !important;
+        }
+    }
+}
