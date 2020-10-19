@@ -18,15 +18,15 @@ const Home = () => {
         <div className="row py-5">
           <div data-aos="fade-right" className="col-md-6 mt-5 pt-5 text">
             <h1 className='text-warning'>Hi,</h1>
-            <h1>
-              I'am <span className="text-primary">Kazi Rafi</span>{" "}
+            <h1 className='text-dark'>
+              I'am <span className="text-primary">Kazi Rafi</span>
             </h1>
             
             <Typical
               steps={[
               
             "I'am Web Developer" ,1000,
-            "I'am MERN Stack Developer" ,1000,
+            "MERN Stack Developer" ,1000,
             "I'am Web Designer" ,1000
             ]}
               loop={Infinity}
