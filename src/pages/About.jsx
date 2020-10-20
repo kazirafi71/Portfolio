@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import Aos from 'aos'
+import img from "../Images/72057312_2532004303700525_1511605660993716224_o.jpg";
 
-import img from '../Images/87626630_2617805838453704_2702793984178126848_o (1).jpg'
 const About = () => {
     useEffect(()=>{
         Aos.init({duration:3000})

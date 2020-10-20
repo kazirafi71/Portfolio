@@ -9,7 +9,7 @@ const Card = ({icon,title}) => {
   <div class="card-body">
     <h5 class="card-title">{title}</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-outline-warning">Contact Me</a>
+    <a href="#contact" class="btn btn-outline-warning">Contact Me</a>
   </div>
 </div>
         </div>
