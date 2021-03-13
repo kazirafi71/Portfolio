@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './App.css';
 import Home from './pages/Home'
@@ -10,25 +10,72 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { BrowserRouter, Route,Switch } from 'react-router-dom';
 
+import HashLoader
 
-function App() {
-  return (
-    
-    <div className="App">
-      
-      
-      <Navbar/>
-      
+ from "react-spinners/HashLoader";
+import {
+  css
+} from "@emotion/core";
+
+
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+`;
+
+const Routing=()=>{
+  return(
+    <div>
       <Home/>
       <About/>
       <Skills></Skills>
       <Service/>
       <Contact/>
-      {/* <Skills></Skills>
-      <Service/>
-      <Contact/> */}
-      <Footer/>
     </div>
+  )
+}
+
+function App() {
+  let [loading, setLoading] = useState(false);
+  let [color, setColor] = useState("orange");
+
+  // useEffect(() => {
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   }, 2000)
+  // }, [])
+
+  return (
+    
+    
+
+<div className = {loading ? "App" : '' }  > {
+  loading ?
+  <HashLoader
+
+color = {
+    color
+  }
+  loading = {
+    loading
+  }
+  size = {
+    40
+  }
+  css={override}
+  />:
+
+<BrowserRouter>
+  <Navbar/>
+  <Routing/>
+  <Footer/>
+</BrowserRouter>
+
+}
+
+</div>
     
    
   );
