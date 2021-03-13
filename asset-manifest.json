@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6b6af7fb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.294136e3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.294136e3.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e158b7ff.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e158b7ff.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.ea6b7726.chunk.css": "/Portfolio/static/css/2.ea6b7726.chunk.css",
-    "static/js/2.ab21ed80.chunk.js": "/Portfolio/static/js/2.ab21ed80.chunk.js",
-    "static/js/2.ab21ed80.chunk.js.map": "/Portfolio/static/js/2.ab21ed80.chunk.js.map",
+    "static/js/2.3169566a.chunk.js": "/Portfolio/static/js/2.3169566a.chunk.js",
+    "static/js/2.3169566a.chunk.js.map": "/Portfolio/static/js/2.3169566a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.a83c74191c836e49188403314e2c8c1e.js": "/Portfolio/precache-manifest.a83c74191c836e49188403314e2c8c1e.js",
+    "precache-manifest.c4f5a3ef1b1db2c7cf2f813bc21aee2b.js": "/Portfolio/precache-manifest.c4f5a3ef1b1db2c7cf2f813bc21aee2b.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.ea6b7726.chunk.css.map": "/Portfolio/static/css/2.ea6b7726.chunk.css.map",
     "static/css/main.6b6af7fb.chunk.css.map": "/Portfolio/static/css/main.6b6af7fb.chunk.css.map",
-    "static/js/2.ab21ed80.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ab21ed80.chunk.js.LICENSE.txt",
+    "static/js/2.3169566a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3169566a.chunk.js.LICENSE.txt",
     "static/media/72057312_2532004303700525_1511605660993716224_o.jpg": "/Portfolio/static/media/72057312_2532004303700525_1511605660993716224_o.7f2fc859.jpg",
     "static/media/87626630_2617805838453704_2702793984178126848_o (1).jpg": "/Portfolio/static/media/87626630_2617805838453704_2702793984178126848_o (1).dfa451b9.jpg",
     "static/media/pexels-francesco-ungaro-673648.jpg": "/Portfolio/static/media/pexels-francesco-ungaro-673648.f8673428.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.ea6b7726.chunk.css",
-    "static/js/2.ab21ed80.chunk.js",
+    "static/js/2.3169566a.chunk.js",
     "static/css/main.6b6af7fb.chunk.css",
-    "static/js/main.294136e3.chunk.js"
+    "static/js/main.e158b7ff.chunk.js"
   ]
 }
