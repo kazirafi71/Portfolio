@@ -40,12 +40,12 @@ function App() {
   let [loading, setLoading] = useState(false);
   let [color, setColor] = useState("orange");
 
-  // useEffect(() => {
-  //   setLoading(true)
-  //   setTimeout(() => {
-  //     setLoading(false)
-  //   }, 2000)
-  // }, [])
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000)
+  }, [])
 
   return (
     
