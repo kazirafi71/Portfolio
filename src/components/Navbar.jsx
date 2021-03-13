@@ -7,7 +7,7 @@ import {Link} from 'react-scroll';
 const Navbar = () => {
   return (
     <div>
-      <nav class="nav bg-primary bg-light fixed-top navbar navbar-expand-lg navbar-light">
+      <nav class="nav bg-primary  fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container">
   <a class="navbar-brand" href="#">Kazi Rafi</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
