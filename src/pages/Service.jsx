@@ -74,7 +74,7 @@ const Service = () => {
             </div>
           </div>
         
-          <div  className="col-md-4">
+          {/* <div  className="col-md-4">
             <div className="card">
             <a href='https://insta-clone-rafi-71.herokuapp.com/login'>
               <div className="card-body text-center">
@@ -86,7 +86,7 @@ const Service = () => {
               </div>
               </a>
             </div>
-          </div>
+          </div> */}
           <div  className="col-md-4">
             <div className="card">
             <a href='https://reactweb2.herokuapp.com/'>
