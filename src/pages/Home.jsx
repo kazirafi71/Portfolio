@@ -5,14 +5,14 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import { Link } from "react-router-dom";
-// import Aos from "aos";
-// import 'aos/dist/aos.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Typical from "react-typical";
 
 const Home = () => {
-  //   useEffect(() => {
-  //     Aos.init({ duration: 2000 });
-  //   }, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div id="home">
       <div className="container">

@@ -5,7 +5,7 @@ import img from '../Images/pexels-olia-danilevich-4974915.jpg'
 
 const Skills = () => {
   useEffect(()=>{
-    Aos.init({duration:3000})
+    Aos.init({duration:2000})
 },[])
   return (
     <div id='skills'>
